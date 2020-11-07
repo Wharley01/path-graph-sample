@@ -1,0 +1,59 @@
+{
+  "DATABASE": {
+    "host": "localhost",
+    "user": "root",
+    "password": "@@##$$1234",
+    "name": "your_db",
+    "charset": "utf8mb4",
+    "collate": "utf8mb4_unicode_ci"
+  },
+  "SESSION": {
+    "domain": ".website.com"
+  },
+  "FILE": {
+    "max_size": 5242880,
+    "storage_path": "/path/.Storage/"
+  },
+  "SSR": {
+    "is_node": false,
+    "node_path": "node"
+  },
+  "PROJECT": {
+    "name": "Path",
+    "is_production": true,
+    "recaptcha_secret_key": "6Le3JsUUAAAAAN66trdf1SJsXpz_tA3K3uSg-Ltv",
+    "version": "1.0",
+    "directory": "",
+    "host": "localhost",
+    "port": 8080,
+    "protocol": "http",
+    "server": "https://localhost:8080",
+    "_comment": "SSE/WS can be value of watch_method",
+    "watch_method": "SSE",
+    "currency_format": "decimal(0,00)"
+  },
+  "WATCHER": {
+    "method": "SSE",
+    "WEBSOCKET": {
+      "host": "https://localhost:8080",
+      "port": 443,
+      "scheme": "SSL"
+    }
+  },
+  "MAILER": {
+    "USE": "smtp",
+    "SMTP": {
+      "host": "smtp-relay.gmail.com",
+      "uses_auth": false,
+      "username": null,
+      "password": null,
+      "port": 587,
+      "protocol": "",
+      "charset": "UTF-8"
+    },
+    "ADMIN_INFO": {
+      "email": "noreply@buysafe.ng",
+      "name": "Buysafe support"
+    }
+  }
+}
