@@ -1,11 +1,23 @@
-# user-manage
+# Path graph sample project
 
-## Project setup
+## Install Frontend dependencies
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## Install Path framework dependencies
+```
+composer install
+```
+
+You must have to have at least v7.0 version of PHP installed
+
+### Serve backend locally
+```
+php __path serve
+```
+
+### Compiles and hot-reloads frontend for development
 ```
 yarn serve
 ```

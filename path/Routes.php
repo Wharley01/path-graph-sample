@@ -9,7 +9,7 @@ use Path\Core\Http\Router;
 
 $router = new Router();
 //Enter your UI SERVERS Seperated by comma
-$router->response->disableCORS("");
+$router->response->disableCORS("http://localhost:9002");
 
 $router->get("SSE/@controller/@action", 'Path\Plugins\SSEController\SSEServer->watch');
 $router->error404(function (Request $request, Response $response) {

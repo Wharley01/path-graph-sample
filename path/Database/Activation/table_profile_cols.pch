@@ -1,0 +1,10 @@
+[
+    "profile.id",
+    "profile.age",
+    "profile.gender",
+    "profile.about",
+    "profile.name",
+    "profile.is_deleted",
+    "profile.date_added",
+    "profile.last_update_date"
+]

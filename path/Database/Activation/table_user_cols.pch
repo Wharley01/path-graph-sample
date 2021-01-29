@@ -1,0 +1,9 @@
+[
+    "user.id",
+    "user.email",
+    "user.handle",
+    "user.profile_id",
+    "user.is_deleted",
+    "user.date_added",
+    "user.last_update_date"
+]

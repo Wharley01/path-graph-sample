@@ -3,15 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service generate-routes && vue-cli-service serve",
+    "build": "vue-cli-service generate-routes && vue-cli-service build"
   },
   "dependencies": {
+    "@__path/bool": "^1.4.0",
+    "@__path/graph": "^3.0.40",
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
     "core-js": "^3.6.5",
+    "node-time-ago": "^1.0.0",
+    "raw-loader": "^4.0.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
+    "vue-currency-input": "^1.19.0",
+    "vue-feather-icons": "^5.1.0",
+    "vue-meta": "^2.3.1",
+    "vue-modally": "^2.4.0",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vue-server-renderer": "^2.6.10",
+    "vue-toast-notification": "^0.2.0",
+    "vuex": "^3.4.0",
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -21,7 +34,10 @@
     "@vue/cli-service": "~4.5.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-path-vue": "~4.3.0",
+    "vue-route-generator": "^0.4.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-assets-manifest": "^3.1.1"
   },
   "browserslist": [
     "> 1%",

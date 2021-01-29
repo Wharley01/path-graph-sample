@@ -50,7 +50,7 @@ class Response
     public function disableCORS($server = null){
         $headers = [
             "Access-Control-Allow-Credentials" => "true",
-            "Access-Control-Allow-Methods" => "GET, POST, OPTIONS, PATCH",
+            "Access-Control-Allow-Methods" => "GET, POST, OPTIONS, PATCH, DELETE",
             "Access-Control-Allow-Headers" => "Origin, Content-Type, Accept, Authorization"
         ];
         if($server){
