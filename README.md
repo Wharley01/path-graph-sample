@@ -15,7 +15,7 @@ You must have to have at least v7.0 version of PHP installed
 
 ### Install database
 ```
-php __path install
+php __path install app
 ```
 
 Make sure you configure your database details in `./path/project.pconf.json`
