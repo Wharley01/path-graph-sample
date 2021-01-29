@@ -12,6 +12,16 @@ composer install
 
 You must have to have at least v7.0 version of PHP installed
 
+
+### Install database
+```
+php __path install
+```
+
+Make sure you configure your database details in `./path/project.pconf.json`
+
+
+
 ### Serve backend locally
 ```
 php __path serve
